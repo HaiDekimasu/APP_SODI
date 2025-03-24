@@ -1,12 +1,18 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mi Página con Botones</title>
+
+    <link rel="stylesheet" href="{% static "styles.css" %}">
+    <link rel="icon" href="/APPSODI/static/img/casita.png">
+    <title>APP Sodimac belloto.com</title>
 </head>
 <body>
-    <h1>¡Bienvenido a mi página!</h1>
-    <a href="{% url 'enlace1' %}"><button>Enlace 1</button></a>
-    <a href="{% url 'enlace2' %}"><button>Enlace 2</button></a>
-    <a href="{% url 'enlace3' %}"><button>Enlace 3</button></a>
+    <h1>APP Sodimac Belloto.com</h1>
+    <li>
+        <a href="{% url 'enlace1' %}"><button>Descarga nuestra APP Sodimac</button></a>
+        <a href="{% url 'enlace2' %}"><button>Incribete en nuestro Circulo de especialistas</button></a>
+        <a href="{% url 'enlace3' %}"><button>Unete a Nuestros Clientes CMR!!!</button></a>
+    </li>
 </body>
 </html>

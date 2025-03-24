@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image:url(/APPSODI/static/img/BLOG-HC-LANZAMIENTO.png);
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
