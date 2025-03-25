@@ -3,7 +3,7 @@
 
 deactivate () {
     # reset old environment variables
-    if [ -n "${_OLD_VIRTUAL_PATH:-}" ] ; then
+    if [ -n "${_OLD_VIRTUAL_PATH:-}" ] ; then   
         PATH="${_OLD_VIRTUAL_PATH:-}"
         export PATH
         unset _OLD_VIRTUAL_PATH
