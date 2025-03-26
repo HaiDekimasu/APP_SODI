@@ -128,4 +128,4 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-## comentario pendiente modificar fondo de pantalla Y LOS LINK CORECTOS
+## comentario pendiente modificar fondo de pantalla Y LOS LINK CMR
