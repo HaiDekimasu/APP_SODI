@@ -6,8 +6,19 @@
 body{
     height: 100%;
     width: 100%;
-    background-image:url(static/img/casa.png);
+    background-image:url(img/casa.png);
     background-repeat: no-repeat;    
     background-attachment: fixed;
     background-size: 100% 100%;
+}
+.BTN {
+    display: inline-block;
+    padding: 12px 24px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 0 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
