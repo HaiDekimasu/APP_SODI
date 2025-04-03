@@ -12,10 +12,13 @@ body {
     background-attachment: fixed;
     background-size: cover;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     font-family: sans-serif;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
+
 
 .content {
     text-align: center;
