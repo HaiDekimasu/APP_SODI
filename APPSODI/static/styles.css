@@ -1,43 +1,51 @@
-*{
+* {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-body{
-    height: 100%;
-    width: 100%;
-    background-image:url(img/casa.png);
-    background-repeat: no-repeat;    
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img/casa.png);
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: cover;
     display: flex;
     justify-content: center;
-    font-family: sans-serif;
     align-items: center;
-    min-height: 100vh;
-}
-li {
-    text-align: center;
-    width: 100%;
-}
-.content{
-    display: block;
-    justify-content: center;
-    justify-items: center;
-    text-align: center;
-}
-.a.BTN {
-    display: inline-block;
-    padding: 12px 24px;
-    text-decoration: none;
-    background-color: #007bff;
-    color: white;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    margin: 0 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: sans-serif;
 }
 
-.BTN:hover {
+.content {
+    text-align: center;
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+}
+
+.content h1 {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para legibilidad */
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    z-index: 100; /* Asegura que esté por encima de otros elementos */
+}
+
+.vertical-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px; /* Ajusta el margen para evitar superposición con el h1 */
+}
+
+.vertical-buttons a.btn.btn-primary {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.vertical-buttons a.btn.btn-primary:hover {
     background-color: #0056b3;
 }
