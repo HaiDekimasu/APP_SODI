@@ -14,10 +14,13 @@ def enlace3(request):
     return redirect ("https://www.circulodeespecialistas.cl/activaciones-en-tienda?tienda=90")
 
 def enlace4(request):
-    return redirect("https://www.bancofalabella.cl/pre-landing?utm_source=Sodimac&utm_medium=QRregional&utm_content=belloto-qr-unificado&utm_campaign=apertura-sodimac&utm_term=259303483&store_id=90")
+    return redirect("http://www.bancofalabella.cl/pre-landing?utm_source=Sodimac&utm_medium=QRregional&utm_content=belloto-qr-unificado&utm_campaign=apertura-sodimac&utm_term=98396365&store_id=90")
 
 def enlace5(request):
-    return redirect("https://www.bancofalabella.cl/pre-landing?utm_source=Sodimac&utm_medium=QRregional&utm_content=belloto-qr-unificado&utm_campaign=apertura-sodimac&utm_term=259303483&store_id=90")
+    return redirect("http://www.bancofalabella.cl/pre-landing?utm_source=Sodimac&utm_medium=QRregional&utm_content=belloto-qr-unificado&utm_campaign=apertura-sodimac&utm_term=122212904&store_id=90")
+
+def enlace6(request):
+    return redirect("https://www.bancofalabella.cl/pre-landing?utm_source=Sodimac&utm_medium=QRregional&utm_content=belloto-qr-unificado&utm_campaign=apertura-sodimac&utm_term=158471078&store_id=90")
 
 def enlace7(request):
     return redirect("https://www.bancofalabella.cl/pre-landing?utm_source=Sodimac&utm_medium=QRregional&utm_content=belloto-qr-unificado&utm_campaign=apertura-sodimac&utm_term=259303483&store_id=90")

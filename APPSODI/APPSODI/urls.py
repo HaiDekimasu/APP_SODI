@@ -11,5 +11,6 @@ urlpatterns = [
     path('enlace3/', views.enlace3, name='enlace3'),
     path('enlace4/', views.enlace4, name='enlace4'),
     path('enlace5/', views.enlace5, name='enlace5'),
+    path('enlace6/', views.enlace6, name='enlace6'),
     path('enlace7/', views.enlace7, name='enlace7'),
 ]
