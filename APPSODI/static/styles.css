@@ -52,3 +52,14 @@ body {
 .vertical-buttons a.btn.btn-primary:hover {
     background-color: #0056b3;
 }
+
+.btn btn-primary dropdown-toggle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.dropdown{
+    margin-top: 40%;
+}
